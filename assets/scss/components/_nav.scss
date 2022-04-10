@@ -1,0 +1,34 @@
+nav{
+    background-color: var(--bg-body);
+    color: var(--color-txt);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 5px 2px var(--bg-main);
+    z-index: 99;
+}
+
+
+.nav-container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: var(--nav-size);
+
+    .nav-logo{
+        font-size: var(--font-size-lg);
+        color: var(--blue);
+    }
+
+    .dark-mode-toggle{
+        color: var(--blue);
+        font-size: var(--font-size-lg);
+        cursor: pointer;
+    }
+}
+
